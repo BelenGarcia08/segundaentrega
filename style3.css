@@ -1,0 +1,193 @@
+.encabezado-nombre {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #12202c;
+    justify-content: center;
+    align-content: center;
+    font-family: 'verdana';
+            font-size: 40px;
+            color: #00e5ff;
+            text-shadow: 
+                0 0 5px #00e5ff,
+                0 0 10px #00e5ff,
+                0 0 20px #00e5ff,
+                0 0 40px #00e5ff,
+                0 0 80px #00e5ff,
+                0 0 90px #00e5ff,
+                0 0 100px #00e5ff,
+                0 0 150px #00e5ff;
+}
+
+.slogan {
+    display: flex;
+    background-color: #009092;
+    font-family: verdana;
+    color:#12202c;
+    font-size: 20px;
+    font-style: italic;
+    align-content: center;
+    justify-content: center;
+}
+
+.principal {
+    display: flex;
+    width: 100%;
+    height: 1110;
+    background-color: #00c6c7 ;
+}
+
+.serveis {
+    width: 800px;
+    height: 940px;
+    font-family: verdana;
+    font-size: 50px;
+    color: #12202c;
+    align-content: center;
+    justify-content: center;
+    padding: 0 0 0 6;
+    margin: 0px;
+    background-color: #00c6c7;
+}
+
+.button {
+    font-size: 30px;
+}
+
+.imconsult {
+    width: 1200px;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template: repeat(2, 400px) / repeat(2, 1337px);
+    width: 2674px;
+    height: 800px;
+    grid-template-areas: 
+    "quees quees"
+    "beneficios enfoque";
+    background-color: #00c6c7;
+    border: solid #009092 5px;
+    gap: 1rem;
+    justify-content:center;
+    align-content: center;
+    margin: 0;
+    padding: 10px;
+    font-family: verdana;
+    font-size: 30px;
+    color: #12202c;
+}
+.quees {
+    display: grid;
+    grid-area: quees;
+    
+    
+}
+
+#quees {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border: #12202c 5px;
+    
+}
+
+.beneficios {
+    display: grid;
+    grid-area: beneficios;
+    width: 50%;
+    align-self: auto;
+}
+
+#beneficios {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.enfoque {
+    display: grid;
+    grid-area: enfoque;
+    width: 50%;
+    align-self: auto;
+}
+
+#enfoque {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.buttonqt {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonmp {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #009092;
+    align-content: center;
+    text-align: center;
+}
+
+.form-container {
+    background-color:#00c6c7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 2650px;
+    height: 765px; ;
+    align-content: center;
+    text-align: justify;
+    font-family: verdana;
+    font-size: 40px;
+    color: #12202c;
+    
+}
+
+input[type="text"] {
+    
+    height: 60px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+}
+input[type="radio"] {
+    
+    height: 40px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+}
+input[type="email"] {
+    
+    height: 40px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+}
+input[type="tel"] {
+    
+    height: 40px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+}
