@@ -27,6 +27,33 @@
     font-style: italic;
     align-content: center;
     justify-content: center;
+    
+}
+
+.barranavegacion {
+    nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #00bcd4;
+        }
 }
 
 .principal {
@@ -35,6 +62,8 @@
     height: 1110;
     background-color: #00c6c7 ;
 }
+
+
 
 .serveis {
     width: 800px;
