@@ -6,6 +6,10 @@
     <title>ConsultorioMPK</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="/assets/hombrevitruvio.jpg" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
     <header>
@@ -28,29 +32,44 @@
     </header>
     <main>
         <div class="slogan">
-            <h2>DEJANOS TU NOMBRE, MAIL Y TELEFONO. <br>¡TE CONTACTAREMOS EN BREVE!</h2>
+            <h2 class="animate__heartBeat">DEJANOS TU NOMBRE, MAIL Y TELEFONO ¡TE CONTACTAREMOS EN BREVE!</h2>
         </div>
        
         <section class="form-container">
-            <form action="#" method="post">
-               <label for="NOMBRE">NOMBRE:</label>
-               <input type="text" name="NOMBRE" id="NOMBRE"> <br>
-               <label for="servicio">SERVICIO:</label>
-               <input type="radio" name="" id="">
-               <label for="kinesiologia">KINESIOLOGIA</label>
-               <input type="radio" name="" id="">
-               <label for="gimnasia-postural">GIMNASIA POSTURAL</label>
-               <input type="radio" name="" id="">
-               <label for="masoterapia">MASOTERAPIA</label> <br>
-               <label for="email">EMAIL:</label>
-               <input type="email" name="mail" id="mail"> <br>
-               <label for="teléfono">TELEFONO:</label>
-               <input type="tel" name="TELEFONO" id="TELEFONO"> <br>
-               <label for="mensaje">MENSAJE:</label>
-               <input type="text" name="mensaje" id="mensaje"> <br>
-               <input class="button" type="submit" value="ENVIAR">
-            </form>
-        </section>
+    <h2>Pedí un Turno</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label>Especialidad deseada:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="servicio" value="kinesiologia" id="kinesiologia">Kinesiología</label>
+                <label><input type="radio" name="servicio" value="gimnasia-postural" id="gimnasia-postural">GimnasiaPostural</label>
+                <label><input type="radio" name="servicio" value="masoterapia" id="masoterapia">Masoterapia</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="mail" id="mail" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono">
+        </div>
+
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="4"></textarea>
+            </div>
+
+        <button type="submit" class="buttonqt">ENVIAR TURNO</button>
+        </form>
+</section>
 
        
     <footer>
